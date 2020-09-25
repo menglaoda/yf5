@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 500;
+}
+body{
+	font-family: "宋体";
+}
+.logo{
+	display: block;
+	margin: 0px auto 0px;
+	width: 122px;
+	padding-top: 16px;
+}
+.mytitle{
+	font-size: 13px;
+	height: 13px;
+	line-height: 13px;
+	text-align: center;
+	letter-spacing: 4px;
+}
+.oh3{
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-top: 97px;
+	color: #666;
+}
+.p1{
+	max-width: 650px;
+	width: 90%;
+	font-size: 13px;
+	text-align: center;
+	line-height: 20px;
+	color: #999;
+	margin: 20px auto 115px;
+}
+.list{
+	max-width: 1160px;
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	list-style: none;
+}
+.list li{
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 24px;
+}
+.list li:nth-child(3n){
+	margin-right: 0;
+}
+.list img{
+	display: block;
+	width: 100%;
+}
+.list p{
+	font-size: 13px;
+	color: #333;
+	margin-top: 20px;
+}
+.list span{
+	font-size: 11px;
+	color: #999;
+}
+.ft{
+	padding-top: 110px;
+	padding-bottom: 123px;
+	text-align: center;
+}
+.ft img{
+	width: 70px;
+}
+.p2{
+	margin: 25px 0px;
+}
+.p2 i{
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	margin: 0px 11px;
+	background: url(../img/ia_100000015.png) 0px -128px;
+}
+.p2 i:nth-child(2){
+	background: url(../img/ia_100000015.png) -640px -128px;
+}
+.p2 i:nth-child(3){
+	background: url(../img/ia_100000015.png) -672px -128px;
+}
+.p2 i:nth-child(4){
+	background: url(../img/ia_100000015.png) -608px -128px;
+}
+.p2 i:nth-child(5){
+	background: url(../img/ia_100000015.png) -128px -128px;
+}
+.p3{
+	color: #999;
+	font-size: 12px;
+	line-height: 24px;
+	width: 90%;
+	margin: 0 auto;
+}
+.p4{
+	font-size: 14px;
+	margin: 20px 0px 0px;
+}
+@media screen and (max-width: 480px) {
+	.logo{
+		width: 56px;
+	}
+	.oh3{
+		margin-top: 57px;
+	}
+	.p1{
+		margin: 20px auto 60px;
+	}
+	.list li{
+		width: 100%;
+	}
+	.ft{
+		padding: 70px 0px;
+	}
+}
